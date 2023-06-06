@@ -1,0 +1,100 @@
+ul{
+    list-style-type: none;
+    background-color: #2a1029;
+    overflow: hidden
+;
+}
+li{
+    float: left;
+}
+li, a{
+    padding: 10px;
+    display: block;
+    color: #ffffff;
+    font-size: large;
+}
+li a:hover{
+    background-color: #4e1c56;
+}
+ol{
+    list-style-type: none;
+    background-color: #2a1029;
+    overflow: hidden;
+}
+.fruits{
+    background-color: #2a53d8;
+    border: 2px solid #d82aa7;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: "DejaVu Sans", serif;
+    }
+.cars {
+    background-color: #4e1c56;
+    border: 2px hotpink;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: "DejaVu Sans", sans-serif;
+    }
+.FRUITS{
+    background-color: #0a0a2f;
+    border: #2a53d8;
+    margin: 10px;
+    padding: 5px ;
+    text-align: center;
+    font-family: "DejaVu Sans", sans-serif;
+}
+#gari{
+    background-color: #2a53d8;
+    border: 5px solid #001c8b;
+    margin: 5px;
+    padding: 5px ;
+    text-align: center;
+    font-family: "DejaVu Sans", sans-serif;
+}
+#matunda{
+    background-color: #4e1c56;
+    border: 5px solid #e040dd;
+    margin: 10px;
+    padding: 5px ;
+    text-align: center;
+    font-family: "DejaVu Sans", sans-serif;
+}
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 5 px solid #030103;
+
+}
+.container h2{
+    text-align: center;
+}
+.form-group{
+    margin-top: 20px;
+}
+.form-group label{
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.form-group input{
+    width: 100%;
+    padding:10px ;
+
+}
+.form-group button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4e1c56;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover{
+    background-color: #2a1029;
+}

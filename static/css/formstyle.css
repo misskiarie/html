@@ -1,0 +1,58 @@
+.container{
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #030103;
+
+}
+.container h2{
+    text-align: center;
+}
+.form-group{
+    margin-top: 20px;
+}
+.form-group label{
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: "JetBrains Mono ExtraBold";
+    border-radius: 5px;
+}
+.form-group input{
+    width: 100%;
+    padding:10px ;
+
+}
+.form-group button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4e1c56;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover{
+    background-color: #2a1029;
+}
+.form-group select{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(78, 28, 86);
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #030103;
+    color: #ffffff;
+    font-family: "JetBrains Mono ExtraBold";
+    font-size: large;
+}
+.form-group select:hover{
+    background-color: #2a1029;
+}
+.form-group textarea{
+    background-color: rgba(216, 42, 167, 0.38);
+    border-radius: 5px;
+    border: 1px solid #030103;
+    padding: 5px;
+}
